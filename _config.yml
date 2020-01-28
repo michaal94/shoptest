@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            SHOP-VRB
 tagline:          'A Visual Reasoning Benchmark for Object Perception'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      'A Visual Reasoning Benchmark for Object Perception'
 url:              https://michaal94.github.io/shoptest/
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
