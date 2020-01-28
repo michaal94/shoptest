@@ -18,10 +18,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "SHOP-VRB: A Visual Reasoning Benchmark for Object Perception"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : Michal Nazarczuk, Krystian Mikolajczyk, ICRA 2020
 name                     : "Michał Nazarczuk"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://michaal94.github.io/shoptest/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
