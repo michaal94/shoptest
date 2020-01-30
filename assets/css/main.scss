@@ -11,12 +11,21 @@
     background-color: #515157
 }
 
+// #main {
+//     > section, article {
+//         &.cover {
+//             img.back {
+//                 width:20%;
+//                 background-color: rgba(255, 255, 255, 0);
+//             }
+//         }
+//     }
+// }
+
 #main {
     > section, article {
-        &.cover {
-            img.back {
-                width:20%;
-                background-color: rgba(255, 255, 255, 0);
+        &.shade-one {
+                background-color: #222223;
             }
         }
     }
