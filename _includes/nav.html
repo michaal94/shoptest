@@ -34,7 +34,7 @@
         {%- endif -%}
       {%- endfor -%}
     {%- endunless -%}
-    {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
+    {%- assign _sections = include.section_items | where_exp: "section", "section.hide_nav != true" -%}
     {%- if _pages[0] and _sections[0] -%}<hr>{%- endif -%}
     {%- unless _sections == null -%}
       {%- for _sect in _sections -%}
