@@ -22,7 +22,7 @@ In ICRA.
 ```
 
 
-<div class='row'>
+<div class='row', style="text-align: left">
 ### Publication
 **[Title](https://google.com)**
 <br>
