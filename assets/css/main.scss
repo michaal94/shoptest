@@ -3,7 +3,8 @@
 ---
 @import "jekyll-theme-prologue";
 
-    strong, b {
-        font-weight: 600;
-        color: #666;
+    h2 {
+        .shopvrb-h2-strong {
+            font-weight: 600
+        }
     }
