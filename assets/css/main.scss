@@ -10,3 +10,13 @@
 .button_color {
     background-color: #515157
 }
+
+#main {
+    > section, article {
+        &.cover {
+            img.back {
+                width:10%;
+            }
+        }
+    }
+}
