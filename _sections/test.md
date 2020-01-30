@@ -22,7 +22,7 @@ In ICRA.
 ```
 
 
-<div class='row', style="text-align: left", markdown="1">
+<div class='row',style='text-align: left',markdown="1">
 ### Publication
 **[Title](https://google.com)**
 <br>
