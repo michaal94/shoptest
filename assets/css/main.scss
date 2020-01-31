@@ -39,21 +39,26 @@
 }
 
 
-// .column-shop-2-3 {
-//     width: 66.67%;
-//     padding: 10px;
-// }
+.column-publication {
+    text-align: right;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 66.7%;
+}
 
-// .column-shop-1-3 {
-//     width: 33.33%;
-//     padding: 10px;
-// }
+.column-publication-img {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 33.3%;
+}
 
-// @media screen and (max-width: 480px) {
-//     .column-shop-2-3 {
-//         width: 100%;
-//     }
-//     .column-shop-1-3 {
-//         width: 100%;
-//     }
-// }
+@media screen and (max-width: 736px) {
+    .column-publication {
+        max-width: 100%;
+    }
+    .column-publication-img {
+        max-width: 100%;
+    }
+}
