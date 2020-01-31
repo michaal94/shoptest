@@ -2,6 +2,7 @@
 title: Publications - test
 icon: fa-book
 order: 8
+hide: true
 ---
 
 ### Publication
