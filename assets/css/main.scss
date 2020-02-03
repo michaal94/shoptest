@@ -32,12 +32,6 @@
     }
 }
 
-#main {
-    > section, article {
-
-    }
-}
-
 
 .column-publication {
     text-align: right;
@@ -62,3 +56,15 @@
         max-width: 100%;
     }
 }
+
+.small-font {
+    font-size: 12pt;
+}
+
+@include breakpoint(narrower) {
+    .small-font{
+        font-size: 10pt;
+    }
+}
+
+
