@@ -10,6 +10,10 @@ layout: default
 	{%- endif -%}
 	<!-- Sections -->
 	{%- for _section in _sections -%}
-		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+		{%- if _section.banner == true -%}
+			{%- include banner.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+		{%- else -%}
+			{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+		{%- endif -%}
 	{%- endfor -%}
 </div>
